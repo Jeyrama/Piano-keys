@@ -51,3 +51,5 @@ function blackOrWhiteKey(key) {
   if (key > 3) key = (key-3)%12;
   return (black.includes(key)) ? 'black' : 'white';
 }
+
+// or
