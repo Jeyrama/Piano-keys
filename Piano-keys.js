@@ -41,3 +41,6 @@ here are a few more examples:
   100   "black"
   2017  "white"
 */
+
+
+// Solution
