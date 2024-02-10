@@ -45,11 +45,15 @@ here are a few more examples:
 
 // Solution
 
-function blackOrWhiteKey(key) {
-  key = key%88;
+function blackOrWhiteKey(pianoKey) {
+  pianoKey = key%88;
   let black  = [2, 4, 7, 9, 11];
   if (key > 3) key = (key-3)%12;
   return (black.includes(key)) ? 'black' : 'white';
 }
 
 // or
+
+function blackOrWhiteKey(keyPressCount) {    
+  return ['black','white'] [ '101101011010'[((keyPressCount-1)%88)%12] ]
+}
